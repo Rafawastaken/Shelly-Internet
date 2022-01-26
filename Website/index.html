@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col mt-3">
+          <div class="display-4">Controlar Shelly 1</div>
+        </div>
+        <div class="col"></div>
+      </div>
+      <hr />
+      <div class="row">
+        <div class="col"></div>
+        <div class="col">
+          <div class="container-middle text-center">
+            <p class="h1">Controlar Luz Quarto</p>
+            <p class="h5 text-muted">
+              A Luz está <span id="span-status">Loading</span>
+            </p>
+            <div class="row m-2">
+              <div class="col mt-2">
+                <button
+                  id="btn-ligar"
+                  class="btn btn-success btn-rounded btn-lg form-control"
+                >
+                  Ligar
+                </button>
+              </div>
+              <div class="col mt-2">
+                <button
+                  id="btn-desligar"
+                  class="btn btn-danger btn-rounded btn-lg form-control disabled"
+                >
+                  Desligar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
