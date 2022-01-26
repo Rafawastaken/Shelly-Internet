@@ -10,6 +10,8 @@ import {
   remove,
 } from "https://www.gstatic.com/firebasejs/9.6.3/firebase-database.js";
 
+sss;
+
 const firebaseConfig = {
   // Replace with Firebase API
 };
