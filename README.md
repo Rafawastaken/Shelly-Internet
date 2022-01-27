@@ -28,3 +28,9 @@ If you want to use this script:
  1. Install dependencies in requirements.txt: python3 -m pip install -r requirements.txt
  2. Need Firebase Account: https://firebase.google.com
  3. Change the app.js and run.py with the Shelly Network IP and Firebase API.
+
+
+### License
+
+This project is licensed under the MIT License. 
+Feel free to use it however you want.
